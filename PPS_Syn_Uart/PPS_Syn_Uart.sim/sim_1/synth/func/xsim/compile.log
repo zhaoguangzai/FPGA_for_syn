@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.sim/sim_1/synth/func/xsim/PPS_uart_sim_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PPS_Delay
+INFO: [VRFC 10-311] analyzing module PPS_Delay_1
+INFO: [VRFC 10-311] analyzing module PPS_Delay_2
+INFO: [VRFC 10-311] analyzing module PPS_Delay_3
+INFO: [VRFC 10-311] analyzing module PPS_delay_Uart
+INFO: [VRFC 10-311] analyzing module PWM_Gen
+INFO: [VRFC 10-311] analyzing module PWM_Gen_0
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sim_1/new/PPS_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PPS_uart_sim

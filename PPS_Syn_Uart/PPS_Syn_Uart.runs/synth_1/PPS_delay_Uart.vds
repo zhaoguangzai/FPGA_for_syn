@@ -1,0 +1,644 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Feb 21 19:04:38 2023
+# Process ID: 31716
+# Current directory: E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.runs/synth_1
+# Command line: vivado.exe -log PPS_delay_Uart.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PPS_delay_Uart.tcl
+# Log file: E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.runs/synth_1/PPS_delay_Uart.vds
+# Journal file: E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source PPS_delay_Uart.tcl -notrace
+Command: synth_design -top PPS_delay_Uart -part xc7a35tfgg484-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 29832 
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_Delay with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_Delay.v:47]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_Delay with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_Delay.v:48]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_Delay with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_Delay.v:49]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_Delay with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_Delay.v:50]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PWM_Gen with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PWM_Gen.v:51]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PWM_Gen with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PWM_Gen.v:53]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PWM_Gen with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PWM_Gen.v:54]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PWM_Gen with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PWM_Gen.v:55]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PWM_Gen with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PWM_Gen.v:56]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PWM_Gen with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PWM_Gen.v:57]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PWM_Gen with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PWM_Gen.v:58]
+WARNING: [Synth 8-2611] redeclaration of ansi port clk_div is not allowed [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/clk_div.v:29]
+WARNING: [Synth 8-992] clk is already implicitly declared earlier [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:423]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:49]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:50]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:53]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:54]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:83]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:95]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:96]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:97]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:98]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:99]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:100]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:101]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:102]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:103]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:104]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:105]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:106]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:107]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:108]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:109]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:111]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:112]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:223]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:224]
+WARNING: [Synth 8-2507] parameter declaration becomes local in PPS_delay_Uart with formal parameter declaration list [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:225]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 398.836 ; gain = 113.074
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'PPS_delay_Uart' [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:29]
+	Parameter CLK_FRE bound to: 50 - type: integer 
+	Parameter Time_1MS bound to: 25000 - type: integer 
+	Parameter High_width bound to: 500000 - type: integer 
+	Parameter count_1s bound to: 50000000 - type: integer 
+	Parameter cont_10ms bound to: 500000 - type: integer 
+	Parameter count_ms bound to: 16'b1100001101010000 
+	Parameter IDLE bound to: 5'b00000 
+	Parameter one_state bound to: 5'b00001 
+	Parameter two_state bound to: 5'b00010 
+	Parameter thr_state bound to: 5'b00011 
+	Parameter for_state bound to: 5'b00100 
+	Parameter fiv_state bound to: 5'b00101 
+	Parameter six_state bound to: 5'b00110 
+	Parameter sev_state bound to: 5'b00111 
+	Parameter eig_state bound to: 5'b01000 
+	Parameter nine_state bound to: 5'b01001 
+	Parameter ten_state bound to: 5'b01010 
+	Parameter ele_state bound to: 5'b01100 
+	Parameter twe_state bound to: 5'b01101 
+	Parameter thrteen_state bound to: 5'b01110 
+	Parameter forteen_state bound to: 5'b01111 
+	Parameter err_state bound to: 5'b10000 
+	Parameter err1_state bound to: 5'b10001 
+	Parameter t_IDLE bound to: 3'b000 
+	Parameter SEND bound to: 3'b001 
+	Parameter WAIT bound to: 3'b010 
+INFO: [Synth 8-6157] synthesizing module 'PPS_Delay' [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_Delay.v:31]
+	Parameter CLK_FRE bound to: 50 - type: integer 
+	Parameter Half_1ms bound to: 25000 - type: integer 
+	Parameter PPS_High_Width bound to: 500000 - type: integer 
+	Parameter IDLE bound to: 5'b00000 
+	Parameter one_state bound to: 5'b00001 
+	Parameter two_state bound to: 5'b00010 
+	Parameter thr_state bound to: 5'b00011 
+INFO: [Synth 8-6155] done synthesizing module 'PPS_Delay' (1#1) [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_Delay.v:31]
+INFO: [Synth 8-6157] synthesizing module 'PWM_Gen' [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PWM_Gen.v:22]
+	Parameter CLK_FRE bound to: 50 - type: integer 
+	Parameter time_1s_int bound to: 12500 - type: integer 
+	Parameter zero_step bound to: 4'b0000 
+	Parameter one_step bound to: 4'b0001 
+	Parameter two_step bound to: 4'b0011 
+	Parameter thr_step bound to: 4'b0010 
+	Parameter for_step bound to: 4'b0110 
+	Parameter five_step bound to: 4'b0111 
+INFO: [Synth 8-6155] done synthesizing module 'PWM_Gen' (2#1) [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PWM_Gen.v:22]
+INFO: [Synth 8-6157] synthesizing module 'uart_rx' [E:/PPS_Syn/PPS_Syn_Uart/uart_rx.v:29]
+	Parameter CLK_FRE bound to: 50 - type: integer 
+	Parameter BAUD_RATE bound to: 115200 - type: integer 
+	Parameter CYCLE bound to: 434 - type: integer 
+	Parameter S_IDLE bound to: 1 - type: integer 
+	Parameter S_START bound to: 2 - type: integer 
+	Parameter S_REC_BYTE bound to: 3 - type: integer 
+	Parameter S_STOP bound to: 4 - type: integer 
+	Parameter S_DATA bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'uart_rx' (3#1) [E:/PPS_Syn/PPS_Syn_Uart/uart_rx.v:29]
+INFO: [Synth 8-6157] synthesizing module 'uart_tx' [E:/PPS_Syn/PPS_Syn_Uart/uart_tx.v:29]
+	Parameter CLK_FRE bound to: 50 - type: integer 
+	Parameter BAUD_RATE bound to: 115200 - type: integer 
+	Parameter CYCLE bound to: 434 - type: integer 
+	Parameter S_IDLE bound to: 1 - type: integer 
+	Parameter S_START bound to: 2 - type: integer 
+	Parameter S_SEND_BYTE bound to: 3 - type: integer 
+	Parameter S_STOP bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'uart_tx' (4#1) [E:/PPS_Syn/PPS_Syn_Uart/uart_tx.v:29]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/clk_div.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div' (5#1) [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/clk_div.v:23]
+WARNING: [Synth 8-3848] Net PPS_TEST in module/entity PPS_delay_Uart does not have driver. [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:46]
+INFO: [Synth 8-6155] done synthesizing module 'PPS_delay_Uart' (6#1) [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_delay_Uart.v:29]
+WARNING: [Synth 8-3331] design PPS_delay_Uart has unconnected port PPS_TEST
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 434.934 ; gain = 149.172
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 434.934 ; gain = 149.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 434.934 ; gain = 149.172
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tfgg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/constrs_1/new/PPS_drc.xdc]
+Finished Parsing XDC File [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/constrs_1/new/PPS_drc.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/constrs_1/new/PPS_drc.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/PPS_delay_Uart_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/PPS_delay_Uart_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 780.605 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 780.645 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 780.645 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 780.645 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 780.645 ; gain = 494.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tfgg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 780.645 ; gain = 494.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 780.645 ; gain = 494.883
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'cur_state_reg' in module 'PPS_Delay'
+INFO: [Synth 8-5546] ROM "PPS_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "rec_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cur_state" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "cur_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "period_int" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "cur_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'uart_rx'
+INFO: [Synth 8-5546] ROM "bit_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'uart_tx'
+INFO: [Synth 8-5546] ROM "bit_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'PPS_delay_Uart'
+INFO: [Synth 8-5546] ROM "cstate" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cstate" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tx_str" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tx_str" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "tx_data_valid" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cstate" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cstate" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tx_data" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0001 |                            00000
+               one_state |                             0010 |                            00001
+               two_state |                             0100 |                            00010
+               thr_state |                             1000 |                            00011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cur_state_reg' using encoding 'one-hot' in module 'PPS_Delay'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                            00001 |                              001
+                 S_START |                            10000 |                              010
+              S_REC_BYTE |                            01000 |                              011
+                  S_STOP |                            00100 |                              100
+                  S_DATA |                            00010 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'uart_rx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_IDLE |                             0001 |                              001
+                 S_START |                             0010 |                              010
+             S_SEND_BYTE |                             0100 |                              011
+                  S_STOP |                             1000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'uart_tx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  t_IDLE |                              001 |                              000
+                    SEND |                              010 |                              001
+                    WAIT |                              100 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'PPS_delay_Uart'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 780.645 ; gain = 494.883
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 8     
+	   2 Input     20 Bit       Adders := 4     
+	   2 Input     16 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 6     
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               20 Bit    Registers := 4     
+	               16 Bit    Registers := 2     
+	               15 Bit    Registers := 2     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 10    
+	                6 Bit    Registers := 6     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 14    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 8     
+	   2 Input     20 Bit        Muxes := 12    
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 1     
+	  15 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 8     
+	   4 Input      6 Bit        Muxes := 2     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 8     
+	   3 Input      5 Bit        Muxes := 6     
+	   4 Input      4 Bit        Muxes := 5     
+	   2 Input      4 Bit        Muxes := 25    
+	   2 Input      3 Bit        Muxes := 8     
+	   5 Input      3 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 10    
+	   4 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 29    
+	   4 Input      1 Bit        Muxes := 18    
+	   3 Input      1 Bit        Muxes := 3     
+	  18 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module PPS_delay_Uart 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 7     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	  15 Input      7 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	   3 Input      5 Bit        Muxes := 6     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	  18 Input      1 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+Module PPS_Delay 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               20 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     20 Bit        Muxes := 3     
+	   2 Input      6 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 2     
+Module PWM_Gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               15 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 2     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 5     
+Module uart_rx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+	   2 Input      3 Bit        Muxes := 4     
+	   5 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+Module uart_tx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 3     
+	   4 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 1     
+Module clk_div 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "cstate" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cstate" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "PPS_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "rec_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cur_state" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "PPS_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "rec_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "rec_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cur_state" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "PPS_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "rec_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cur_state" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "PPS_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bit_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bit_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cstate" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cstate" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design PPS_delay_Uart has unconnected port PPS_TEST
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\tx_data_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\PWM_Gen2/period_int_reg[14] )
+INFO: [Synth 8-3886] merging instance 'PWM_Gen2/cur_step_reg[3]' (FDC) to 'PWM_Gen2/cur_step_reg[2]'
+INFO: [Synth 8-3886] merging instance 'PWM_Gen2/cur_step_reg[2]' (FDC) to 'PWM_Gen1/cur_step_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\PWM_Gen1/period_int_reg[14] )
+INFO: [Synth 8-3886] merging instance 'PWM_Gen1/cur_step_reg[3]' (FDC) to 'PWM_Gen1/cur_step_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\PWM_Gen1/cur_step_reg[2] )
+INFO: [Synth 8-3886] merging instance 'i_9/tx_cnt_reg[4]' (FDCE) to 'i_9/tx_cnt_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_9/tx_cnt_reg[5]' (FDCE) to 'i_9/tx_cnt_reg[6]'
+INFO: [Synth 8-3886] merging instance 'i_9/tx_cnt_reg[6]' (FDCE) to 'i_9/tx_cnt_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_9/\tx_cnt_reg[7] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 780.645 ; gain = 494.883
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 780.645 ; gain = 494.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 800.441 ; gain = 514.680
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 808.250 ; gain = 522.488
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 808.250 ; gain = 522.488
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 808.250 ; gain = 522.488
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 808.250 ; gain = 522.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 808.250 ; gain = 522.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 808.250 ; gain = 522.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 808.250 ; gain = 522.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |   125|
+|3     |LUT1   |    37|
+|4     |LUT2   |   260|
+|5     |LUT3   |   135|
+|6     |LUT4   |   114|
+|7     |LUT5   |   186|
+|8     |LUT6   |   192|
+|9     |FDCE   |   483|
+|10    |FDPE   |    10|
+|11    |IBUF   |     4|
+|12    |OBUF   |     7|
+|13    |OBUFT  |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------------+------------+------+
+|      |Instance            |Module      |Cells |
++------+--------------------+------------+------+
+|1     |top                 |            |  1556|
+|2     |  PPS_delay_lidar   |PPS_Delay   |   183|
+|3     |  PWM_Gen1          |PWM_Gen     |   183|
+|4     |  PWM_Gen2          |PWM_Gen_0   |   293|
+|5     |  clk_div1          |clk_div     |     2|
+|6     |  pps_delay_camera1 |PPS_Delay_1 |   182|
+|7     |  pps_delay_camera2 |PPS_Delay_2 |   181|
+|8     |  pps_delay_soc     |PPS_Delay_3 |   183|
+|9     |  uart_rx_inst      |uart_rx     |   115|
+|10    |  uart_tx_inst      |uart_tx     |    81|
++------+--------------------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 808.250 ; gain = 522.488
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 808.250 ; gain = 176.777
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 808.250 ; gain = 522.488
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 125 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 808.250 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+98 Infos, 41 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 808.250 ; gain = 535.496
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 808.250 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.runs/synth_1/PPS_delay_Uart.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file PPS_delay_Uart_utilization_synth.rpt -pb PPS_delay_Uart_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 21 19:05:08 2023...

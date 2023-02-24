@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"PPS_uart_sim_func_synth.v" \
+"../../../../../PPS_Syn_Uart.srcs/sim_1/new/PPS_sim.v" \
+
+# Do not sort compile order
+nosort

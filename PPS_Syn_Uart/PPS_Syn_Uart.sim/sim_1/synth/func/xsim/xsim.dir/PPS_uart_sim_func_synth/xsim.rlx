@@ -1,0 +1,12 @@
+
+{ 
+    crc :  5229196135651179753  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto c3cad44807d14740b04ad365fdc0e6a3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot PPS_uart_sim_func_synth xil_defaultlib.PPS_uart_sim xil_defaultlib.glbl" , 
+    buildDate : "Dec  7 2018" , 
+    buildTime : "00:33:28" , 
+    linkCmd : "D:\\Xilinx\\Vivado\\2018.3\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/PPS_uart_sim_func_synth/xsimk.exe\"   \"xsim.dir/PPS_uart_sim_func_synth/obj/xsim_0.win64.obj\" \"xsim.dir/PPS_uart_sim_func_synth/obj/xsim_1.win64.obj\" -L\"D:\\Xilinx\\Vivado\\2018.3\\lib\\win64.o\" -lrdi_simulator_kernel  -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

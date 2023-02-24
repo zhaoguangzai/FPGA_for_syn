@@ -1,0 +1,7 @@
+Running: xsim.dir/PPS_uart_sim_func_synth/xsimk.exe -simmode gui -wdb PPS_uart_sim_func_synth.wdb -simrunnum 0 -socket 13136
+Design successfully loaded
+Design Loading Memory Usage: 12644 KB (Peak: 12644 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 17772 KB (Peak: 17772 KB)
+Simulation CPU Usage: 6171 ms

@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_Delay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PPS_Delay
+WARNING: [VRFC 10-3380] identifier 'cnt_enable_lidar' is used before its declaration [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_Delay.v:77]
+WARNING: [VRFC 10-3380] identifier 'PPS_delay_lidar' is used before its declaration [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_Delay.v:95]
+WARNING: [VRFC 10-3380] identifier 'cnt_pps_ms' is used before its declaration [E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_Delay.v:144]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sim_1/new/PPS_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PPS_sim

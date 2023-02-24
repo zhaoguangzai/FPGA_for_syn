@@ -1,0 +1,6 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.sim/sim_1/synth/func/xsim/PPS_uart_sim_func_synth.v,1676018662,verilog,,E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sim_1/new/PPS_sim.v,,PPS_Delay;PPS_Delay_1;PPS_Delay_2;PPS_Delay_3;PPS_delay_Uart;PWM_Gen;PWM_Gen_0;glbl;uart_rx;uart_tx,,,,,,,,
+E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sim_1/new/PPS_sim.v,1676014933,verilog,,,,PPS_uart_sim,,,,,,,,

@@ -1,0 +1,14 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c3cad44807d14740b04ad365fdc0e6a3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PPS_sim_behav xil_defaultlib.PPS_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/PPS_Syn/PPS_Syn_Uart/PPS_Syn_Uart.srcs/sources_1/new/PPS_Delay.v" Line 31. Module PPS_Delay(Half_1ms=50,PPS_High_Width=10) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PPS_Delay(Half_1ms=50,PPS_High_W...
+Compiling module xil_defaultlib.PPS_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot PPS_sim_behav
