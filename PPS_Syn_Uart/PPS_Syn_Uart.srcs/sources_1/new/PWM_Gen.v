@@ -94,7 +94,7 @@ begin
                         if(cur_cnt == period_int-1) 
                                 begin 
                                  if(PWM_cnt < 2* (Period-1)) begin    //generate n PWMs, it ends
-                                       PWM_cnt<=PWM_cnt+ 6'b1; cur_step <= one_step;
+                                       PWM_cnt <= PWM_cnt+ 6'b1; cur_step <= one_step;
                                        Pwm_sig <= ~Pwm_sig;end
                                   else  begin 
                                            PWM_cnt <= 6'b0; cur_step <= two_step;

@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Tue Feb 21 19:05:40 2023
+| Date         : Mon Mar 13 18:27:04 2023
 | Host         : LAPTOP-3H7KH1IM running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file PPS_delay_Uart_control_sets_placed.rpt
 | Design       : PPS_delay_Uart
@@ -70,38 +70,38 @@ Table of Contents
 |    Clock Signal    |            Enable Signal           |     Set/Reset Signal    | Slice Load Count | Bel Load Count |
 +--------------------+------------------------------------+-------------------------+------------------+----------------+
 |  clk_BUFG          | pps_delay_soc/PPS_out_i_1__0_n_0   | PPS_delay_lidar/rst_n   |                1 |              1 |
-|  sys_clk_IBUF_BUFG | uart_rx_inst/rx_bits[5]_i_1_n_0    | uart_rx_inst/rst_n      |                1 |              1 |
-|  sys_clk_IBUF_BUFG | uart_rx_inst/rx_bits[4]_i_1_n_0    | uart_rx_inst/rst_n      |                1 |              1 |
-|  clk_BUFG          |                                    | uart_tx_inst/rst_n      |                1 |              1 |
-|  clk_BUFG          | PWM_Gen2/PWM_cnt[5]_i_1__0_n_0     | uart_tx_inst/rst_n      |                1 |              1 |
-|  sys_clk_IBUF_BUFG | uart_rx_inst/rx_bits[2]_i_1_n_0    | uart_rx_inst/rst_n      |                1 |              1 |
-|  sys_clk_IBUF_BUFG | uart_rx_inst/rx_bits[0]_i_1_n_0    | uart_rx_inst/rst_n      |                1 |              1 |
-|  sys_clk_IBUF_BUFG | uart_rx_inst/rx_bits[6]_i_1_n_0    | uart_rx_inst/rst_n      |                1 |              1 |
-|  clk_BUFG          | PPS_delay_lidar/PPS_out_i_1_n_0    | PPS_delay_lidar/rst_n   |                1 |              1 |
 |  sys_clk_IBUF_BUFG | uart_rx_inst/rx_bits[1]_i_1_n_0    | uart_rx_inst/rst_n      |                1 |              1 |
+|  sys_clk_IBUF_BUFG | uart_rx_inst/rx_bits[5]_i_1_n_0    | uart_rx_inst/rst_n      |                1 |              1 |
+|  clk_BUFG          | PPS_delay_lidar/PPS_out_i_1_n_0    | PPS_delay_lidar/rst_n   |                1 |              1 |
+|  clk_BUFG          |                                    | uart_tx_inst/rst_n      |                1 |              1 |
+|  sys_clk_IBUF_BUFG | uart_rx_inst/rx_bits[6]_i_1_n_0    | uart_rx_inst/rst_n      |                1 |              1 |
+|  sys_clk_IBUF_BUFG | uart_rx_inst/rx_bits[4]_i_1_n_0    | uart_rx_inst/rst_n      |                1 |              1 |
+|  sys_clk_IBUF_BUFG | uart_rx_inst/rx_bits[0]_i_1_n_0    | uart_rx_inst/rst_n      |                1 |              1 |
+|  sys_clk_IBUF_BUFG | uart_rx_inst/rx_bits[2]_i_1_n_0    | uart_rx_inst/rst_n      |                1 |              1 |
+|  sys_clk_IBUF_BUFG | Soc_Delay[7]_i_1_n_0               | pps_delay_soc/rst_n     |                1 |              1 |
+|  sys_clk_IBUF_BUFG | Camera1_Delay[7]_i_1_n_0           | pps_delay_soc/rst_n     |                1 |              1 |
 |  sys_clk_IBUF_BUFG | uart_rx_inst/rx_bits[7]_i_1_n_0    | uart_rx_inst/rst_n      |                1 |              1 |
 |  sys_clk_IBUF_BUFG | uart_rx_inst/rx_bits[3]_i_1_n_0    | uart_rx_inst/rst_n      |                1 |              1 |
-|  sys_clk_IBUF_BUFG | Camera1_Delay[7]_i_1_n_0           | pps_delay_soc/rst_n     |                1 |              1 |
-|  sys_clk_IBUF_BUFG | Soc_Delay[7]_i_1_n_0               | pps_delay_soc/rst_n     |                1 |              1 |
-|  clk_BUFG          | PWM_Gen2/cur_cnt[10]_i_1__0_n_0    | PPS_delay_lidar/rst_n   |                1 |              2 |
+|  clk_BUFG          | PWM_Gen2/PWM_cnt[5]_i_1__0_n_0     | uart_tx_inst/rst_n      |                1 |              1 |
 |  sys_clk_IBUF_BUFG |                                    | PPS_delay_lidar/rst_n   |                2 |              2 |
+|  clk_BUFG          | PWM_Gen2/cur_cnt[10]_i_1__0_n_0    | PPS_delay_lidar/rst_n   |                1 |              2 |
 |  sys_clk_IBUF_BUFG | PWM_Period[7]_i_1_n_0              | pps_delay_soc/rst_n     |                1 |              2 |
 |  sys_clk_IBUF_BUFG | uart_tx_inst/E[0]                  | uart_tx_inst/rst_n      |                1 |              4 |
 |  clk_BUFG          | PWM_Gen2/period_int[13]_i_1__0_n_0 | uart_tx_inst/rst_n      |                4 |              5 |
 |  clk_BUFG          | pps_delay_soc/ms_num               | pps_delay_soc/rst_n     |                2 |              6 |
-|  clk_BUFG          | PWM_Gen2/PWM_cnt[5]_i_1__0_n_0     | uart_rx_inst/rst_n      |                2 |              6 |
 |  clk_BUFG          | pps_delay_camera2/ms_num           | uart_rx_inst/rst_n      |                1 |              6 |
-|  clk_BUFG          | PPS_delay_lidar/ms_num             | PPS_delay_lidar/rst_n   |                2 |              6 |
 |  clk_BUFG          | pps_delay_camera1/ms_num           | pps_delay_camera1/rst_n |                2 |              6 |
+|  clk_BUFG          | PPS_delay_lidar/ms_num             | PPS_delay_lidar/rst_n   |                2 |              6 |
+|  clk_BUFG          | PWM_Gen2/PWM_cnt[5]_i_1__0_n_0     | uart_rx_inst/rst_n      |                2 |              6 |
 |  sys_clk_IBUF_BUFG | PWM_Period[7]_i_1_n_0              | uart_tx_inst/rst_n      |                1 |              6 |
-|  sys_clk_IBUF_BUFG | uart_tx_inst/tx_data_latch0        | uart_tx_inst/rst_n      |                2 |              7 |
 |  clk_BUFG          | PWM_Gen1/PWM_cnt[5]_i_1_n_0        | pps_delay_camera1/rst_n |                2 |              7 |
+|  sys_clk_IBUF_BUFG | uart_tx_inst/tx_data_latch0        | uart_tx_inst/rst_n      |                2 |              7 |
 |  sys_clk_IBUF_BUFG | Camera1_Delay[7]_i_1_n_0           | uart_tx_inst/rst_n      |                2 |              7 |
 |  sys_clk_IBUF_BUFG | Soc_Delay[7]_i_1_n_0               | uart_tx_inst/rst_n      |                2 |              7 |
 |  sys_clk_IBUF_BUFG | tx_data                            | uart_tx_inst/rst_n      |                1 |              7 |
-|  sys_clk_IBUF_BUFG | Camera2_Delay[7]_i_1_n_0           | pps_delay_soc/rst_n     |                2 |              8 |
-|  sys_clk_IBUF_BUFG | Lidar_Delay[7]_i_1_n_0             | uart_tx_inst/rst_n      |                2 |              8 |
 |  sys_clk_IBUF_BUFG | uart_rx_inst/rx_data_valid01_out   | pps_delay_soc/rst_n     |                1 |              8 |
+|  sys_clk_IBUF_BUFG | Lidar_Delay[7]_i_1_n_0             | uart_tx_inst/rst_n      |                2 |              8 |
+|  sys_clk_IBUF_BUFG | Camera2_Delay[7]_i_1_n_0           | pps_delay_soc/rst_n     |                2 |              8 |
 |  clk_BUFG          | PWM_Gen2/period_int[13]_i_1__0_n_0 | uart_rx_inst/rst_n      |                7 |              9 |
 |  clk_BUFG          | PWM_Gen2/cur_cnt[10]_i_1__0_n_0    | uart_tx_inst/rst_n      |                3 |              9 |
 |  clk_BUFG          | PWM_Gen1/cur_cnt0                  | pps_delay_camera1/rst_n |                4 |             11 |

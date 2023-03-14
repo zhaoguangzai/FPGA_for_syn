@@ -14,7 +14,7 @@
       <Properties Property="PROGRAM.ERASE" value="1"/>
       <Properties Property="PROGRAM.FILES" value="$_project_name_.runs/impl_1/PPS_delay_Uart.bin"/>
       <Properties Property="PROGRAM.PRM_FILE" value=""/>
-      <Properties Property="PROGRAM.UNUSED_PIN_TERMINATION" value="pull-none"/>
+      <Properties Property="PROGRAM.UNUSED_PIN_TERMINATION" value="pull-down"/>
       <Properties Property="PROGRAM.VERIFY" value="1"/>
     </Object>
   </ObjectList>
@@ -22,7 +22,7 @@
     <Object name="xc7a35t_0" gui_info="">
       <Properties Property="FULL_PROBES.FILE" value=""/>
       <Properties Property="PROBES.FILE" value=""/>
-      <Properties Property="PROGRAM.HW_BITSTREAM" value=""/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/PPS_delay_Uart.bit"/>
       <Properties Property="PROGRAM.HW_CFGMEM_PART" value="mt25ql128-spi-x1_x2_x4"/>
       <Properties Property="SLR.COUNT" value="1"/>
     </Object>
